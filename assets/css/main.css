@@ -3048,7 +3048,11 @@
 				}
 
 					#menu .links li a:hover {
-						background: #dcdcdc;
+						background-size: 100%;
+						background-image: -webkit-linear-gradient(135deg,  #54E8E4 0%, #5E0395 100%);
+						background-image: linear-gradient(135deg,  #54E8E4 0%, #5E0395 100%);
+						background-repeat: no-repeat;
+						background-position: 0;
 					}
 
 		@media screen and (max-width: 736px) {
